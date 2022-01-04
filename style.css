@@ -1,8 +1,12 @@
 .body{font-family: 'Poppins', sans-serif;
-margin:;}
+margin: 5px;}
 
 .span_color{
     color: darkorange;
+}
+
+.section{
+    background-image: url(/image/tyty.jpg);
 }
 
 .section{
@@ -20,6 +24,11 @@ margin:;}
     width: 90%;
 }
 
+.section2{
+    display: flex;
+    background-repeat: no-repeat;
+}
+
 .link-button{
     text-decoration: none;
     padding: 5px 20px;
@@ -27,4 +36,28 @@ margin:;}
     background-image: linear-gradient(#ff512f, #dd2476);
     color: white;
     font-weight: 600;
+}
+
+.link-button2{
+    color: white;
+    background-image: linear-gradient(#ff512f, #dd2476);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.half-width2{ 
+width: 50%;
+padding left: 5%;
+}
+
+.half-width2 img{
+    width: 80%;
+    
+    
+    
+    
+    
+    
 }
